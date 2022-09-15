@@ -6,7 +6,7 @@ func numsquere(_ x:Int) {
     print("ЧИСЛО В КВАДРАТЕ \(x*x)")
 }
 
-print(numsquere(165))
+numsquere(165)
 
 
 //КУБ ЧИСЛА
@@ -45,22 +45,28 @@ print("ПЛОЩАДЬ КРУГА \(scirc(10))")
 func mult(_ x:Double, _ y:Double) {
     print("Умножение \(x*y)")
 }
-print(mult(10,20), mult(12,34))
+mult(10,20)
+mult(12,34)
 
 //Деление
 func devi(_ x:Double, _ y:Double) {
     print("Деление \(x/y)")
 }
-print(devi(10,20), devi(12,34))
+devi(10,20)
+devi(12,34)
 
 //Сумма
 func sum(_ x:Double, _ y:Double) {
     print("Cумма \(x+y)")
 }
-print(sum(10,20), sum(12,34), sum(32, 21))
+sum(10,20)
+sum(12,34)
+sum(32, 21)
 
 //Вычетание
 func min(_ x:Int, _ y:Int) {
     print("Вычетание \(x-y)")
 }
-print(min(10,20), min(12,34), min(100,54))
+min(10,20)
+min(12,34)
+min(100,54)
